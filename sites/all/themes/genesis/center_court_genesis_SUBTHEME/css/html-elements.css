@@ -452,3 +452,7 @@ table a:visited,
 table a.active  {}
 
 
+img.footerlogo{
+float: left;
+margin-right: 1.2em;
+}

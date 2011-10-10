@@ -30,10 +30,13 @@ body {
  */
 #container {
   width: 75em;
+  background: #fff;
 }
 
 /* Column wrappers */
-#columns {}
+#columns {
+  margin: 1em;
+}
 .columns-inner {}
 
 /* Content wrappers */
@@ -41,7 +44,9 @@ body {
 .content-inner {}
 
 /* Main content wrappers*/
-#main-content {}
+#main-content {
+  font-size: 15px;
+}
 #content {}
 
 
@@ -145,9 +150,13 @@ h1.logo-site-name  {}
  *                      Sidebars
  **********************************************************/
  #genesis-1c #sidebar-second {
- width: 160px;
- margin-left: -160px;
+ width: 170px;
+ margin-left: -170px;
  }
+
+ #genesis-1c .sidebar-second .content-inner {
+margin-right: 190px;
+}
 /* Target both sidebars with this low specifity selector. */
 .sidebar {}
 .sidebar .region {}
@@ -166,7 +175,7 @@ h1.logo-site-name  {}
   padding: .8em;
   padding-top: .5em;
   color: #fff;
-  font-size: 11px;
+  font-size: 12px;
   text-align: center;
 }
 
@@ -213,7 +222,8 @@ ol.search-results .search-info {}
  *                Footer, RSS Feed Icon
  **********************************************************/
 #footer {
-  margin: 0.375em 0;
+  margin: 0;
+  padding: .5em;
   color: #141452;
   font-size: 12px;
   text-align: center;
