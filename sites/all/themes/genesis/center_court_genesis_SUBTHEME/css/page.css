@@ -7,7 +7,8 @@
 body {
   padding: 0 10px;
   margin: 0;
-  background: #eef2f3;
+  background: url('/sites/default/files/images/bg.jpg') #eef2f3 no-repeat;
+  background-attachment: fixed;
   font-family: Tahoma, Arial, sans-serif;
 }
 	
@@ -29,8 +30,10 @@ body {
  * Fixed widths use pixels,       e.g. 960px
  */
 #container {
-  width: 75em;
+  width: 70em;
   background: #fff;
+  border: 2px solid #807f7f;
+  margin: 2em auto;
 }
 
 /* Column wrappers */
@@ -57,6 +60,7 @@ body {
  **********************************************************/
 /* #header wraps #branding and #header-blocks. */
 #header {
+  margin: 1em auto .5em;
 }
 
 /* #branding wraps #logo, #site-name and #site-slogan. */
@@ -172,7 +176,7 @@ margin-right: 190px;
 }
 
 #hours{
-  background: url('/drupal.centercourt/sites/default/files/images/hoursbg.png') no-repeat;
+  background: url('/sites/default/files/images/hoursbg.png') no-repeat;
   margin: auto;
   padding: .8em;
   padding-top: .5em;
