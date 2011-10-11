@@ -456,3 +456,8 @@ img.footerlogo{
 float: left;
 margin-right: 1.2em;
 }
+
+#logos{
+  margin: auto;
+  width: 65em;
+}

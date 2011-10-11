@@ -35,12 +35,14 @@ body {
 
 /* Column wrappers */
 #columns {
-  margin: 1em;
+  margin: 0 2em;
 }
 .columns-inner {}
 
 /* Content wrappers */
-#content-column {}
+#content-column {
+  margin-bottom: 0;
+}
 .content-inner {}
 
 /* Main content wrappers*/
@@ -222,8 +224,8 @@ ol.search-results .search-info {}
  *                Footer, RSS Feed Icon
  **********************************************************/
 #footer {
-  margin: 0;
-  padding: .5em;
+  margin-bottom: 2em;
+  padding-bottom: .5em;
   color: #141452;
   font-size: 12px;
   text-align: center;

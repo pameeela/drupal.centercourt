@@ -9,7 +9,7 @@
  */
 .block {
   clear: both;
-  margin: 0 0 1.5em;
+  margin: 0 0;
 }
 
 .block-inner    {} /* Block inner div */
