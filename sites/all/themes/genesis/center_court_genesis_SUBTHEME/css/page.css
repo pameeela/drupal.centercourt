@@ -31,8 +31,11 @@ body {
  */
 #container {
   width: 70em;
-  background: #fff;
-  border: 2px solid #807f7f;
+  background-color: #fff;
+  border-radius: 10px;
+   -moz-border-radius: 10px;
+   -webkit-border-radius: 10px;
+
   margin: 2em auto;
 }
 
