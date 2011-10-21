@@ -69,7 +69,8 @@
 .region-leaderboardt .block .content {}
 
 .region-header .block {}
-.region-header .block-title {}
+.region-header .block-title {
+display:none;}
 .region-header .block-inner {}
 .region-header .block .content {}
 
@@ -98,9 +99,13 @@
 .region-tertiary-content .block-inner {}
 .region-tertiary_content .block .content {}
 
-.region-footer .block {}
+.region-footer .block {
+  margin-top:.5em;
+  }
 .region-footer .block-title {}
-.region-footer .block-inner {}
+.region-footer .block-inner {
+  margin-top:.5em;
+  }
 .region-footer .block .content {}
 
 

@@ -30,7 +30,7 @@ body {
  */
 #container {
 margin-top: 1em;
-  width: 75em;
+  width: 70em;
   background-color: #fff;
 border-radius: 10px;
 -moz-border-radius: 10px;
@@ -55,6 +55,7 @@ border-radius: 10px;
 }
 #content {}
 
+.breadcrumb {display: none;} 
 
 /**********************************************************
  *                 Header Elements
@@ -127,7 +128,11 @@ h1.logo-site-name  {}
 
 /* Header blocks */
 #header-blocks {
-  float: right;
+  float: left;
+  width:100%;
+  background: #7caf0a url('/drupal.centercourt/sites/default/files/images/navborder2.jpg') repeat-x;
+  height: 32px;
+  margin-bottom: 1em;
 }
 .region-header {}
 
@@ -249,4 +254,8 @@ font-weight: normal;
 .feed-icon {}
 .feed-icon img {
   padding:0 0.5em;
+}
+
+#logos{
+  height: 7.5em;
 }
