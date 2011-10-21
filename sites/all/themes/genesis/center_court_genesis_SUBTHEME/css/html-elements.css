@@ -293,8 +293,12 @@ div.form-item {
   padding: 0.1875em;
 }
 
+.form-item label{
+  font-size: 0.9em;
+}
+
 .form-item .description {
-  font-size: 0.9em; 
+  font-size: 0.8em; 
   line-height: 1.667em;
 }
 

@@ -8,6 +8,7 @@ body {
   padding: 0 10px;
   margin: 0;
   background: #eef2f3 url('/drupal.centercourt/sites/default/files/images/bg.jpg');
+  background-attachment: fixed;
   font-family: Tahoma, Arial, sans-serif;
 }
 	
