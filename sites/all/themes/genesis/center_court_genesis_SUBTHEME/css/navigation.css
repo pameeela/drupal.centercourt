@@ -10,7 +10,7 @@ ul.menu,
 ul.menu ul, 
 ul.menu ul ul, 
 ul.menu ul ul ul {
-  margin: 0 0 0 0.75em; /* LTR */
+  margin: 0.75em 0; /* LTR */
   padding: 0;
 }
 
@@ -67,7 +67,7 @@ ul.menu li.last  {}
 #main-menu {
 margin: 0;
 z-index: -15;
-background: #70ca2e url('/sites/default/files/images/navborder2.jpg') repeat-x;
+background: #70ca2e url('/drupal.centercourt/sites/default/files/images/navborder2.jpg') repeat-x;
 height: 32px;
 font-size: 13px;
 }
