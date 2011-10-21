@@ -9,7 +9,6 @@ body {
   margin: 0;
   background: #eef2f3 url('/drupal.centercourt/sites/default/files/images/bg.jpg');
   font-family: Tahoma, Arial, sans-serif;
-  test
 }
 	
 /**********************************************************
@@ -30,22 +29,13 @@ body {
  * Fixed widths use pixels,       e.g. 960px
  */
 #container {
-<<<<<<< HEAD
 margin-top: 1em;
   width: 70em;
   background-color: #fff;
 border-radius: 10px;
 -moz-border-radius: 10px;
 -webkit-border-radius: 10px;
-=======
-  width: 70em;
-  background-color: #fff;
-  border-radius: 10px;
-   -moz-border-radius: 10px;
-   -webkit-border-radius: 10px;
-
   margin: 2em auto;
->>>>>>> 2cf56a5ea29c33b776d047951152ac1a83add74d
 }
 
 /* Column wrappers */
