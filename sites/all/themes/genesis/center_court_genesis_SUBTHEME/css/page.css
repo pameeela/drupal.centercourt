@@ -7,7 +7,7 @@
 body {
   padding: 0 10px;
   margin: 0;
-  background: #eef2f3 url('/drupal.centercourt/sites/default/files/images/bg.jpg');
+  background: #fff url('/sites/default/files/images/bg.jpg');
   background-attachment: fixed;
   font-family: Tahoma, Arial, sans-serif;
 }
@@ -133,7 +133,7 @@ h1.logo-site-name  {}
 #header-blocks {
   float: left;
   width:100%;
-  background: #7caf0a url('/drupal.centercourt/sites/default/files/images/navborder2.jpg') repeat-x;
+  background: #7caf0a url('/sites/default/files/images/navborder2.jpg') repeat-x;
   height: 32px;
   margin-bottom: 1em;
 }
@@ -184,7 +184,7 @@ margin-right: 190px;
 }
 
 #hours{
-  background: url('/drupal.centercourt/sites/default/files/images/hoursbg.png') no-repeat;
+  background: url('/sites/default/files/images/hoursbg.png') no-repeat;
   margin: auto;
   padding: .8em;
   padding-top: .5em;
@@ -262,3 +262,4 @@ font-weight: normal;
 #logos{
   height: 7.5em;
 }
+
