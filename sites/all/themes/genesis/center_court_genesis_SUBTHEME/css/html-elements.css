@@ -333,6 +333,30 @@ fieldset {
   padding: 0.75em;
 }
 
+fieldset{
+  background: transparent;
+  border: 1px solid #dadada;
+  margin: 1.5em 0;
+  padding: 0.75em;
+}
+
+#webform-component-player-1{
+  float: left;
+  width:255px;
+  margin-right: 20px;
+  margin-top: 0;
+}
+
+#webform-component-player-2{
+  float: ;
+  width:255px;
+}
+
+#paypal{
+  text-align: center;
+  margin-top: -2em;
+}
+
 /* Targets IE 7. Fixes background image in field sets (if one is set). */
 *:first-child+html fieldset {
   background-color: transparent;
